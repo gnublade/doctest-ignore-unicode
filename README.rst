@@ -13,13 +13,9 @@ Usage
 =====
 
     >>> def hello_world():
-    ...     """Prints Hello World.
-    ...
-    ...     >>> hello_world()  # doctest: +IGNORE_UNICODE
-    ...     u'Hello World'
-    ...
-    ...     """
-    ...     print 'Hello World'
+    ...     return 'Hello World'
+    >>> hello_world()  # doctest: +IGNORE_UNICODE
+    u'Hello World'
 
 FAQ
 ===
