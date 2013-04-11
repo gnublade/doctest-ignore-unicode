@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name="doctest-ignore-unicode",
-    version="0.1.1",
+    version="0.1.2",
     author="Andy Kilner",
     author_email="gnublde@gmail.com",
     description="Add flag to ignore unicode literal prefixes in doctests",
